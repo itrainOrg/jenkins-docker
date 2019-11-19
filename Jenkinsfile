@@ -1,6 +1,6 @@
 node {
    
-   stage('Preparation') { // for display purposes
+   stage('Code Checkout') { // for display purposes
       // Get some code from a GitHub repository
       git credentialsId: 'githubID', url: 'https://github.com/itrainpulsars/jenkins-docker.git'
      
